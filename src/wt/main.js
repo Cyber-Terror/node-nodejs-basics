@@ -1,5 +1,6 @@
-const performCalculations = async () => {
-    // Write your code here
-};
+import { isMainThread, Worker, parentPort, workerData } from 'node:worker_threads'
+// const performCalculations = async () => {
+//     // Write your code here
+// };
 
-await performCalculations();
+// await performCalculations();
